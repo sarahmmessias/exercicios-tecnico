@@ -16,7 +16,7 @@ public class ClassMain {
         int voltar;            // declaração da variável que realizará o while;
 
         Unidade = new String[20];	// atribui a string Unidade 20 posições
-        dezena = new String[10];     // atribui a string dezena 11 posições;
+        dezena = new String[10];     // atribui a string dezena 10 posições;
         centena = "Cem";              // atribui a string centena o valor "cem" ;
         
         // Cada posição do vetor Unidade recebe um nome de acordo com o número;	
