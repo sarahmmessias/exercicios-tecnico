@@ -1,5 +1,5 @@
 // Desenvolver um programa utilizando "POO Classes" para escrever um número inteiro entre 0 e 100 por extenso, em português ou inglês.
-// OBS.: Durante a programação deste código tive difilcudade em utilizar os pacotes no padrão MVC, este sendo o motivo da falta deles.
+// OBS.: Durante a programação deste código tive difilcudade em utilizar os pacotes no padrão MVC, este sendo o motivo da falta deles..
 
 package projetonumeroextenso;
 
