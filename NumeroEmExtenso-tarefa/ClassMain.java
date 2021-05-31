@@ -1,5 +1,5 @@
 // Desenvolver um programa utilizando "POO Classes" para escrever um número inteiro entre 0 e 100 por extenso, em português ou inglês.
-// OBS.: Durante a programação deste código tive difilcudade em utilizar os pacotes no padrão MVC, este sendo o motivo da falta deles..
+// OBS.: Durante a programação deste código tive difilcudade em utilizar os pacotes no padrão MVC, este sendo o motivo da falta deles.
 
 package projetonumeroextenso;
 
@@ -15,9 +15,9 @@ public class ClassMain {
         String conv;           // declaração da variável de conversão;
         int voltar;            // declaração da variável que realizará o while;
 
-        Unidade = new String[20];	// atribui a string Unidade 20 posições
+        Unidade = new String[20];	// atribui a string Unidade 20 posições;
         dezena = new String[10];     // atribui a string dezena 10 posições;
-        centena = "Cem";              // atribui a string centena o valor "cem" ;
+        centena = "Cem";              // atribui a string centena o valor "cem";
         
         // Cada posição do vetor Unidade recebe um nome de acordo com o número;	
         Unidade[0] = "Zero";
@@ -41,7 +41,7 @@ public class ClassMain {
         Unidade[18] = "Dezoito";
         Unidade[19] = "Dezenove";
  	
-        // Cada posição do vetor dezena recebe um nome de acordo com o número */
+        // Cada posição do vetor dezena recebe um nome de acordo com o número;
         dezena[2] = "Vinte";
         dezena[3] = "Trinta";
         dezena[4] = "Quarenta";
@@ -55,12 +55,12 @@ public class ClassMain {
         voltar = read.nextInt();
         read.nextLine();
         
-        // While criado para que usuário possa introduzir repetitivamente números sem precisar sair do programa
+        // While criado para que usuário possa introduzir repetitivamente números sem precisar sair do programa;
         while (voltar != 0) {
 
             System.out.println("Digite um número entre 0 e 100: ");
             conv = read.nextLine();         // atribui o que o usuário digitar a string conv;
-            num = Integer.parseInt(conv);   // converte a variável 
+            num = Integer.parseInt(conv);   // converte a variável;
 
             if (num == 100) { // verifica se o número digitado é igual a 100;
                 System.out.println("O número digitado foi: \n" +centena);
@@ -84,7 +84,7 @@ public class ClassMain {
                     System.out.println("O número digitado foi:\n " + dezena[dez] + " e " + Unidade[uni]);
                     }
             }
-            System.out.println("Digite 1 para continuar digitando ou 0 para sair!"); // permite que usuário continue digitando números
+            System.out.println("Digite 1 para continuar digitando ou 0 para sair!"); // permite que usuário continue digitando números;
             voltar = read.nextInt();
             read.nextLine();
         }
